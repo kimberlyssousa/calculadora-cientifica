@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #5483b3;
+}
+
+form {
+    padding: 30px;
+    width: 268px;
+    background-color: #052659;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    width: 238px;
+    height: 40px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.btn {
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    color: #c1e8ff;
+    background-color: #021024;
+    margin: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #021024;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+} 
